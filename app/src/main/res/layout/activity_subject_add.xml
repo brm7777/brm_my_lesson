@@ -22,7 +22,9 @@
             android:layout_weight="1"
             android:ems="10"
             android:hint="@string/subject_name"
-            android:inputType="textPersonName" />
+            android:inputType="textPersonName"
+            android:textColorHighlight="#00000000"
+            android:textColorLink="#000C0C0C" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
