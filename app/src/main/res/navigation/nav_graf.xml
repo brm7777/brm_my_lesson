@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graf"
+    app:startDestination="@id/nav_lessons">
+
+    <fragment
+        android:id="@+id/nav_lessons"
+        android:name="com.example.brm77.brm_my_lesson.LessonsFragment"
+        android:label="Лекции"
+        tools:layout="@layout/fragment_lesson" >
+        <action
+            android:id="@+id/action_nav_lessons_to_lessonsAdd"
+            app:destination="@id/lessonsAdd" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_subjects"
+        android:name="com.example.brm77.brm_my_lesson.SubjectsFragment"
+        android:label="Предметы"
+        tools:layout="@layout/fragment_subjects" >
+        <action
+            android:id="@+id/action_nav_subjects_to_subjectsAdd"
+            app:destination="@id/subjectsAdd" />
+    </fragment>
+    <activity
+        android:id="@+id/subjectsAdd"
+        android:name="com.example.brm77.brm_my_lesson.SubjectsAdd"
+        android:label="activity_subject_add"
+        tools:layout="@layout/activity_subject_add" />
+    <activity
+        android:id="@+id/lessonsAdd"
+        android:name="com.example.brm77.brm_my_lesson.LessonsAdd"
+        android:label="activity_lesson_add"
+        tools:layout="@layout/activity_lesson_add" />
+
+
+</navigation>
+
+
+
+

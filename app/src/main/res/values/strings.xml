@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Мои лекции</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="Создать_предмет">Создать</string>
+    <string name="Удалить_предмет">Удалить</string>
+    <string name="Сохранить_предмет">Сохранить</string>
+    <string name="Subjects">Предметы</string>
+    <string name="Subject">Предмет</string>
+    <string name="Lesson">Лекция</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="subject_name">Наименование</string>
+
+
+</resources>
