@@ -7,24 +7,20 @@
     tools:context="com.example.brm77.brm_my_lesson.SubjectsAdd"
     tools:layout_editor_absoluteY="81dp">
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="415dp"
-        android:layout_height="727dp"
-        android:orientation="horizontal"
+    <EditText
+        android:id="@+id/edit_subject_name"
+        android:layout_width="407dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="4dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/subject_name"
+        android:inputType="textPersonName"
+        android:textColorHighlight="#00000000"
+        android:textColorLink="#000C0C0C"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <EditText
-            android:id="@+id/edit_subject_name"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:hint="@string/subject_name"
-            android:inputType="textPersonName"
-            android:textColorHighlight="#00000000"
-            android:textColorLink="#000C0C0C" />
-    </LinearLayout>
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
