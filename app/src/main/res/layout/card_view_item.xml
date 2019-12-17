@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:padding="1dp"
             android:textColor="@color/cardview_dark_background"
-            android:textSize="12pt"
+            android:textSize="10pt"
             android:id="@+id/Lesson_name"/>
 </LinearLayout>
 </android.support.v7.widget.CardView>
